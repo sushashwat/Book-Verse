@@ -26,7 +26,7 @@ function HomePage() {
       {/* ── Hero Section ── */}
       <section className="hero">
         <div className="hero__content">
-          <p className="hero__eyebrow">Welcome to Bibliotheca</p>
+          <p className="hero__eyebrow">Welcome to BookVerse</p>
           <h1 className="hero__title">
             Discover Your Next<br />
             <em>Great Read</em>

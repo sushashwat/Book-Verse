@@ -27,10 +27,8 @@ export default booksSlice.reducer
 
 export const selectAllBooks =  (state) => state.books.list
 export const selectPopularBooks = (state)=> state.books.list.filter((b)=> b.popular)
-export const selectBooksById = (id) => (state)=> state.book.list.find((b) => b.id ===Number (id))
-
+export const selectBookById = (id) => (state)=> state.books.list.find((b) => b.id ===Number (id))
 export const selectBooksByCategory = (cat) => (state) =>
     cat && cat !== 'All'
     ?state.books.list.filter((b) => b.category.toLowerCase() === cat.toLowerCase ())
     : state.books.list
-    
