@@ -1,7 +1,7 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout'
-import Homepage from './pages/HomePage'
-import BrowseBookspage from './pages/BrowseBooksPage'
+import HomePage from './pages/HomePage'
+import BrowseBooksPage from './pages/BrowseBooksPage'
 import BookDetailsPage from './pages/BookDetailsPage'
 import AddBookPage from './pages/AddBookPage'
 import NotFoundPage from './pages/NotFoundPage'
